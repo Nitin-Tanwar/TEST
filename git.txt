@@ -1,0 +1,664 @@
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git clone https://github.com/Nitin-Tanwar/ResponsiveDesign-1.git
+Cloning into 'ResponsiveDesign-1'...
+remote: Counting objects: 716, done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 716 (delta 7), reused 20 (delta 5), pack-reused 691
+Receiving objects: 100% (716/716), 1.71 MiB | 11.00 KiB/s, done.
+Resolving deltas: 100% (221/221), done.
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git remote -v
+origin  https://github.com/Nitin-Tanwar/responsivedesign.git (fetch)
+origin  https://github.com/Nitin-Tanwar/responsivedesign.git (push)
+upstream        https://github.com/Nitin-Tanwar/responsivedesign.git (fetch)
+upstream        https://github.com/Nitin-Tanwar/responsivedesign.git (push)
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ResponsiveDesign-1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git add ResponsiveDesign-1/
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   ResponsiveDesign-1/.gitignore
+        new file:   ResponsiveDesign-1/ANSHUL/layoutshifter.css
+        new file:   ResponsiveDesign-1/ANSHUL/layoutshifter.html
+        new file:   ResponsiveDesign-1/AbhishekPrakhar/coloumn-drop.html
+        new file:   ResponsiveDesign-1/AbhishekPrakhar/layout-shifter.html
+        new file:   ResponsiveDesign-1/AbhishekPrakhar/mostlyfluid.html
+        new file:   ResponsiveDesign-1/Arvind-Kalra/Column Drop/CDStyle.css
+        new file:   ResponsiveDesign-1/Arvind-Kalra/Column Drop/index.html
+        new file:   ResponsiveDesign-1/Arvind-Kalra/Layout Shifter/index.html
+        new file:   ResponsiveDesign-1/Arvind-Kalra/Layout Shifter/stylesheet.css
+        new file:   ResponsiveDesign-1/Arvind-Kalra/MostlyFluid/index.html
+        new file:   ResponsiveDesign-1/Arvind-Kalra/MostlyFluid/stylesheet.css
+        new file:   ResponsiveDesign-1/Ashoo Jain/columndrop.css
+        new file:   ResponsiveDesign-1/Ashoo Jain/columndrop.html
+        new file:   ResponsiveDesign-1/Avani/Column Drop/index.html
+        new file:   ResponsiveDesign-1/Avani/Column Drop/style.css
+        new file:   ResponsiveDesign-1/Avani/Layout shifter/index.html
+        new file:   ResponsiveDesign-1/Avani/Layout shifter/style.css
+        new file:   ResponsiveDesign-1/Avani/Mostly fluid/index.html
+        new file:   ResponsiveDesign-1/Avani/Mostly fluid/stylesheet.css
+        new file:   ResponsiveDesign-1/Ayush/columnDrop/columnDrop.css
+        new file:   ResponsiveDesign-1/Ayush/columnDrop/columnDrop.html
+        new file:   ResponsiveDesign-1/Ayush/layoutShifter/layoutShifter.css
+        new file:   ResponsiveDesign-1/Ayush/layoutShifter/layoutShifter.html
+        new file:   ResponsiveDesign-1/Ayush/mostlyFluid/mostlyFluid.css
+        new file:   ResponsiveDesign-1/Ayush/mostlyFluid/mostlyFluid.html
+        new file:   ResponsiveDesign-1/BhavyaTakkar/ColumnDrop.css
+        new file:   ResponsiveDesign-1/BhavyaTakkar/ColumnDrop.html
+        new file:   ResponsiveDesign-1/BhavyaTakkar/LayoutShifter.css
+        new file:   ResponsiveDesign-1/BhavyaTakkar/LayoutShifter.html
+        new file:   ResponsiveDesign-1/BhavyaTakkar/MostlyFluid.css
+        new file:   ResponsiveDesign-1/BhavyaTakkar/MostlyFluid.html
+        new file:   ResponsiveDesign-1/ChetanJain/box.html
+        new file:   ResponsiveDesign-1/ChetanJain/columndrop.css
+        new file:   ResponsiveDesign-1/ChetanJain/columndrop.html
+        new file:   ResponsiveDesign-1/ChetanJain/hw.css
+        new file:   ResponsiveDesign-1/ChetanJain/shifter.html
+        new file:   ResponsiveDesign-1/ChetanJain/viewport.css
+        new file:   ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/column-drop/index.html
+        new file:   ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/column-drop/style.css
+        new file:   ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/layout-shifter/index.html
+        new file:   ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/layout-shifter/style.css
+        new file:   ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/mostly-fliuid/index.html
+        new file:   ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/mostly-fliuid/style.css
+        new file:   ResponsiveDesign-1/Dipesh/index.html
+        new file:   ResponsiveDesign-1/Dipesh/style2.css
+        new file:   ResponsiveDesign-1/Ishu Anand/column drop/index.html
+        new file:   ResponsiveDesign-1/Ishu Anand/column drop/style.css
+        new file:   ResponsiveDesign-1/Ishu Anand/layout_shifter/index.html
+        new file:   ResponsiveDesign-1/Ishu Anand/layout_shifter/style.css
+        new file:   ResponsiveDesign-1/Ishu Anand/mostly-fluid/index.html
+        new file:   ResponsiveDesign-1/Ishu Anand/mostly-fluid/style.css
+        new file:   ResponsiveDesign-1/Kanishk/layoutshifter.html
+        new file:   ResponsiveDesign-1/Nitin/coloumn_drop.css
+        new file:   ResponsiveDesign-1/Nitin/coloumn_drop.html
+        new file:   ResponsiveDesign-1/Paavini/.gitignore
+        new file:   ResponsiveDesign-1/Paavini/ColumnDrop.html
+        new file:   ResponsiveDesign-1/Paavini/MostlyFluid.html
+        new file:   ResponsiveDesign-1/Paavini/layoutshifter.html
+        new file:   ResponsiveDesign-1/Practice Material/Column-Drop/columndrop.html
+        new file:   ResponsiveDesign-1/Practice Material/Column-Drop/style.css
+        new file:   ResponsiveDesign-1/Practice Material/Flex-layout-lab/flexdesign.html
+        new file:   ResponsiveDesign-1/Practice Material/Flex-layout-lab/style.css
+        new file:   ResponsiveDesign-1/Practice Material/Layout-shifter/laayoutshifter.html
+        new file:   ResponsiveDesign-1/Practice Material/Layout-shifter/style.css
+        new file:   ResponsiveDesign-1/Practice Material/Mostly-Fluid/mostlyfluid.html
+        new file:   ResponsiveDesign-1/Practice Material/Mostly-Fluid/style.css
+        new file:   ResponsiveDesign-1/Practice Material/Solutions/columndrop.css
+        new file:   ResponsiveDesign-1/Practice Material/Solutions/flexbox.css
+        new file:   ResponsiveDesign-1/Practice Material/Solutions/layoutShifter.css
+        new file:   ResponsiveDesign-1/PrashantVashisht/ColumnDrop.html
+        new file:   ResponsiveDesign-1/PrashantVashisht/Fluid.html
+        new file:   ResponsiveDesign-1/PrashantVashisht/LayoutShifter.html
+        new file:   ResponsiveDesign-1/PrashantVashisht/columndrop.css
+        new file:   ResponsiveDesign-1/PrashantVashisht/layoutshifter.css
+        new file:   ResponsiveDesign-1/PrashantVashisht/mostlyfluid.css
+        new file:   ResponsiveDesign-1/Puneet/columndrop.css
+        new file:   ResponsiveDesign-1/Puneet/columndrop.html
+        new file:   ResponsiveDesign-1/README.md
+        new file:   ResponsiveDesign-1/Readme.txt
+        new file:   ResponsiveDesign-1/Rishabh Khanna/Layout-Shifter-rishabhk07/layoutshifter.html
+        new file:   ResponsiveDesign-1/Rishabh Khanna/Layout-Shifter-rishabhk07/main.css
+        new file:   ResponsiveDesign-1/SHRAYANSH JAIN/column-drop.css
+        new file:   ResponsiveDesign-1/SHRAYANSH JAIN/column-drop.html
+        new file:   ResponsiveDesign-1/SHRAYANSH JAIN/fluid.css
+        new file:   ResponsiveDesign-1/SHRAYANSH JAIN/layout-shifter.css
+        new file:   ResponsiveDesign-1/SHRAYANSH JAIN/layout-shifter.html
+        new file:   ResponsiveDesign-1/SHRAYANSH JAIN/mostly-fluid.html
+        new file:   ResponsiveDesign-1/Sarthak Goel/patterns-columndrop.html
+        new file:   ResponsiveDesign-1/Sarthak Goel/patterns-layoutshifter.html
+        new file:   ResponsiveDesign-1/Sarthak Goel/patterns-mostlyfluid.html
+        new file:   ResponsiveDesign-1/Sonali/column layout/column_layout.css
+        new file:   ResponsiveDesign-1/Sonali/column layout/column_layout.html
+        new file:   ResponsiveDesign-1/Sonali/fluid/mostly_fluid.css
+        new file:   ResponsiveDesign-1/Sonali/fluid/mostly_fluid.html
+        new file:   ResponsiveDesign-1/Sonali/layout shifter/layout.css
+        new file:   ResponsiveDesign-1/Sonali/layout shifter/layout_shifter.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Aakash/Column drop.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Aakash/Layout Shifter.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Aakash/Layout shifter css.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Aakash/column drop css.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Anshuman/column drop style.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Anshuman/column drop.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Anshuman/most fluid style.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Anshuman/mostly fluid.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Dhruva/Responsive Design/codelab-pattern1.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Dhruva/Responsive Design/columndrop.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Dhruva/Responsive Design/index.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Dhruva/Responsive Design/layout-shifter.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Dhruva/Responsive Design/mostlyfluid.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Column Drop/Column_Drop.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Column Drop/cd.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Flex.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Layout Shifter/Layout_Shifter.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Layout Shifter/ls.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Mostly Fluid/Mostly_Fluid.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Mostly Fluid/mf.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Pushpender/column-drop.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Pushpender/layout-shifter.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Pushpender/mostly-fluid.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Riya/CodeLab1/codelab1.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Riya/CodeLab1/index.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Riya/LayoutShifter/index.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Riya/LayoutShifter/style.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Riya/columndrop/index.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Riya/columndrop/style.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/SakshamBhalla/ColumnDrop.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/SakshamBhalla/LayoutShifter.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/SakshamBhalla/mostlyfluid.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/SakshamBhalla/mostlyfluid.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Shruti/columnHW.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Shruti/columnHW.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Shruti/flexHW.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Shruti/flexHW.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/Shruti/layoutshifter.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/Shruti/layoutshifter.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/aishanya/couloumnDrop/index.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/aishanya/mostly fluid/index.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/amritha anil/columndrop.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/amritha anil/flexlayout.css
+        new file:   ResponsiveDesign-1/WinterBatch2018/amritha anil/flexlayout.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/amritha anil/layoutshifter.html
+        new file:   ResponsiveDesign-1/WinterBatch2018/amritha anil/mostlyfluid.html
+        new file:   ResponsiveDesign-1/Workshop/Anshul Wadhawan/Column Drop/index.html
+        new file:   ResponsiveDesign-1/Workshop/Anshul Wadhawan/Column Drop/style.css
+        new file:   ResponsiveDesign-1/Workshop/Anshul Wadhawan/Layout-Shifter/index.html
+        new file:   ResponsiveDesign-1/Workshop/Anshul Wadhawan/Layout-Shifter/style.css
+        new file:   ResponsiveDesign-1/Workshop/Anshul Wadhawan/Mostly Fluid/index.html
+        new file:   ResponsiveDesign-1/Workshop/Anshul Wadhawan/Mostly Fluid/style.css
+        new file:   ResponsiveDesign-1/Workshop/ParikanshAhluwalia/column.html
+        new file:   ResponsiveDesign-1/Workshop/ParikanshAhluwalia/columnstyle.css
+        new file:   ResponsiveDesign-1/Workshop/ParikanshAhluwalia/fluid.html
+        new file:   ResponsiveDesign-1/Workshop/ParikanshAhluwalia/fluidstyle.css
+        new file:   ResponsiveDesign-1/Workshop/ParikanshAhluwalia/index.html
+        new file:   ResponsiveDesign-1/Workshop/ParikanshAhluwalia/layoutshifter.html
+        new file:   ResponsiveDesign-1/Workshop/ParikanshAhluwalia/shifterstyle.css
+        new file:   ResponsiveDesign-1/Workshop/ParikanshAhluwalia/style.css
+        new file:   ResponsiveDesign-1/Workshop/Rishabh Khanna/Column-Drop-Rishabhk07/columndrop.html
+        new file:   ResponsiveDesign-1/Workshop/Rishabh Khanna/Column-Drop-Rishabhk07/style.css
+        new file:   ResponsiveDesign-1/Workshop/Rishabh Khanna/Mostly-Fluid-Rishabhk07/mostlyFluidMe.html
+        new file:   ResponsiveDesign-1/Workshop/Rishabh Khanna/Mostly-Fluid-Rishabhk07/style.css
+        new file:   ResponsiveDesign-1/Workshop/Sandeep Ranjan/Task 5.1- Mosty Fluid.html
+        new file:   ResponsiveDesign-1/Workshop/Sandeep Ranjan/Task 5.2 - Column Drop .html
+        new file:   ResponsiveDesign-1/Workshop/Sandeep Ranjan/Task 5.3- Layout Shifter.html
+        new file:   ResponsiveDesign-1/Workspace/columndrop.css
+        new file:   ResponsiveDesign-1/Workspace/columndrop.html
+        new file:   ResponsiveDesign-1/Workspace/index.html
+        new file:   ResponsiveDesign-1/Workspace/layout-shifter.css
+        new file:   ResponsiveDesign-1/Workspace/layout-shifter.html
+        new file:   ResponsiveDesign-1/Workspace/mostlyfluid.css
+        new file:   ResponsiveDesign-1/Workspace/mostlyfluid.html
+        new file:   ResponsiveDesign-1/Workspace/style.css
+        new file:   ResponsiveDesign-1/Yogi/Layout_shifer.css
+        new file:   ResponsiveDesign-1/Yogi/Layout_shifter.html
+        new file:   ResponsiveDesign-1/atif abdus samad/Layout-shifter.css
+        new file:   ResponsiveDesign-1/atif abdus samad/Layout-shifter.html
+        new file:   ResponsiveDesign-1/atif abdus samad/column-drop.css
+        new file:   ResponsiveDesign-1/atif abdus samad/column-drop.html
+        new file:   ResponsiveDesign-1/atif abdus samad/fluid.css
+        new file:   ResponsiveDesign-1/atif abdus samad/fluid.html
+        new file:   ResponsiveDesign-1/devank/index.html
+        new file:   ResponsiveDesign-1/devank/style2.css
+        new file:   ResponsiveDesign-1/gopals/column.css
+        new file:   ResponsiveDesign-1/gopals/column_drop.html
+        new file:   ResponsiveDesign-1/gopals/fluid.css
+        new file:   ResponsiveDesign-1/gopals/fluid.html
+        new file:   ResponsiveDesign-1/gopals/layout.css
+        new file:   ResponsiveDesign-1/gopals/layout_shifter.html
+        new file:   ResponsiveDesign-1/mansikhemka/Column-Drop/columndrop.html
+        new file:   ResponsiveDesign-1/mansikhemka/Column-Drop/style.css
+        new file:   ResponsiveDesign-1/mansikhemka/Flex-layout-lab/flexdesign.html
+        new file:   ResponsiveDesign-1/mansikhemka/Flex-layout-lab/style.css
+        new file:   ResponsiveDesign-1/mansikhemka/Layout-shifter/layoutshifter.html
+        new file:   ResponsiveDesign-1/mansikhemka/Layout-shifter/style.css
+        new file:   ResponsiveDesign-1/mansikhemka/Mostly-Fluid/mostlyfluid.html
+        new file:   ResponsiveDesign-1/mansikhemka/Mostly-Fluid/style.css
+        new file:   ResponsiveDesign-1/mansikhemka/blankpage
+        new file:   ResponsiveDesign-1/nitin tanwar/columndrop.css
+        new file:   ResponsiveDesign-1/nitin tanwar/columndrop.html
+        new file:   ResponsiveDesign-1/nitin tanwar/layoutshifter.css
+        new file:   ResponsiveDesign-1/nitin tanwar/layoutshifter.html
+        new file:   ResponsiveDesign-1/nitin tanwar/readme.md
+        new file:   ResponsiveDesign-1/nitin tanwar/view1.html
+        new file:   ResponsiveDesign-1/nitin tanwar/viewport.css
+        new file:   ResponsiveDesign-1/pallavraj/fluid.html
+        new file:   ResponsiveDesign-1/pradeep/mostly-fluid.css
+        new file:   ResponsiveDesign-1/pradeep/mostly-fluid.html
+        new file:   ResponsiveDesign-1/pratyush/design/column-drop/Column-Drop.png
+        new file:   ResponsiveDesign-1/pratyush/design/column-drop/column-drop.css
+        new file:   ResponsiveDesign-1/pratyush/design/column-drop/index.html
+        new file:   ResponsiveDesign-1/pratyush/design/layout-shifting/index.html
+        new file:   ResponsiveDesign-1/pratyush/design/layout-shifting/layout-shifter.png
+        new file:   ResponsiveDesign-1/pratyush/design/layout-shifting/layout-shifting.css
+        new file:   ResponsiveDesign-1/pratyush/design/mostlyfluid/index.html
+        new file:   ResponsiveDesign-1/pratyush/design/mostlyfluid/mostly-fluid.png
+        new file:   ResponsiveDesign-1/pratyush/design/mostlyfluid/mostlyfluid.css
+        new file:   ResponsiveDesign-1/pritam/column layout/column_layout.css
+        new file:   ResponsiveDesign-1/pritam/column layout/column_layout.html
+        new file:   ResponsiveDesign-1/pritam/fluid/mostly_fluid.css
+        new file:   ResponsiveDesign-1/pritam/fluid/mostly_fluid.html
+        new file:   ResponsiveDesign-1/pritam/layout shifter/layout.css
+        new file:   ResponsiveDesign-1/pritam/layout shifter/layout_shifter.html
+        new file:   ResponsiveDesign-1/scaars10/layout_shifter.css
+        new file:   ResponsiveDesign-1/scaars10/layout_shifter.html
+        new file:   ResponsiveDesign-1/shivamyadav03/box.html
+        new file:   ResponsiveDesign-1/shivamyadav03/class.css
+        new file:   ResponsiveDesign-1/shivamyadav03/trail.css
+        new file:   ResponsiveDesign-1/shivamyadav03/trail.html
+        new file:   ResponsiveDesign-1/vatsala/LICENSE
+        new file:   ResponsiveDesign-1/vatsala/README.md
+        new file:   ResponsiveDesign-1/vatsala/index.css
+        new file:   ResponsiveDesign-1/vatsala/res.html
+        new file:   ResponsiveDesign-1/vatsala/vatsala.jpg
+
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git commit -m "Responsive Designs"
+[master 82036e0] Responsive Designs
+ 233 files changed, 11351 insertions(+)
+ create mode 100644 ResponsiveDesign-1/.gitignore
+ create mode 100644 ResponsiveDesign-1/ANSHUL/layoutshifter.css
+ create mode 100644 ResponsiveDesign-1/ANSHUL/layoutshifter.html
+ create mode 100644 ResponsiveDesign-1/AbhishekPrakhar/coloumn-drop.html
+ create mode 100644 ResponsiveDesign-1/AbhishekPrakhar/layout-shifter.html
+ create mode 100644 ResponsiveDesign-1/AbhishekPrakhar/mostlyfluid.html
+ create mode 100644 ResponsiveDesign-1/Arvind-Kalra/Column Drop/CDStyle.css
+ create mode 100644 ResponsiveDesign-1/Arvind-Kalra/Column Drop/index.html
+ create mode 100644 ResponsiveDesign-1/Arvind-Kalra/Layout Shifter/index.html
+ create mode 100644 ResponsiveDesign-1/Arvind-Kalra/Layout Shifter/stylesheet.css
+ create mode 100644 ResponsiveDesign-1/Arvind-Kalra/MostlyFluid/index.html
+ create mode 100644 ResponsiveDesign-1/Arvind-Kalra/MostlyFluid/stylesheet.css
+ create mode 100644 ResponsiveDesign-1/Ashoo Jain/columndrop.css
+ create mode 100644 ResponsiveDesign-1/Ashoo Jain/columndrop.html
+ create mode 100644 ResponsiveDesign-1/Avani/Column Drop/index.html
+ create mode 100644 ResponsiveDesign-1/Avani/Column Drop/style.css
+ create mode 100644 ResponsiveDesign-1/Avani/Layout shifter/index.html
+ create mode 100644 ResponsiveDesign-1/Avani/Layout shifter/style.css
+ create mode 100644 ResponsiveDesign-1/Avani/Mostly fluid/index.html
+ create mode 100644 ResponsiveDesign-1/Avani/Mostly fluid/stylesheet.css
+ create mode 100644 ResponsiveDesign-1/Ayush/columnDrop/columnDrop.css
+ create mode 100644 ResponsiveDesign-1/Ayush/columnDrop/columnDrop.html
+ create mode 100644 ResponsiveDesign-1/Ayush/layoutShifter/layoutShifter.css
+ create mode 100644 ResponsiveDesign-1/Ayush/layoutShifter/layoutShifter.html
+ create mode 100644 ResponsiveDesign-1/Ayush/mostlyFluid/mostlyFluid.css
+ create mode 100644 ResponsiveDesign-1/Ayush/mostlyFluid/mostlyFluid.html
+ create mode 100644 ResponsiveDesign-1/BhavyaTakkar/ColumnDrop.css
+ create mode 100644 ResponsiveDesign-1/BhavyaTakkar/ColumnDrop.html
+ create mode 100644 ResponsiveDesign-1/BhavyaTakkar/LayoutShifter.css
+ create mode 100644 ResponsiveDesign-1/BhavyaTakkar/LayoutShifter.html
+ create mode 100644 ResponsiveDesign-1/BhavyaTakkar/MostlyFluid.css
+ create mode 100644 ResponsiveDesign-1/BhavyaTakkar/MostlyFluid.html
+ create mode 100644 ResponsiveDesign-1/ChetanJain/box.html
+ create mode 100644 ResponsiveDesign-1/ChetanJain/columndrop.css
+ create mode 100644 ResponsiveDesign-1/ChetanJain/columndrop.html
+ create mode 100644 ResponsiveDesign-1/ChetanJain/hw.css
+ create mode 100644 ResponsiveDesign-1/ChetanJain/shifter.html
+ create mode 100644 ResponsiveDesign-1/ChetanJain/viewport.css
+ create mode 100644 ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/column-drop/index.html
+ create mode 100644 ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/column-drop/style.css
+ create mode 100644 ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/layout-shifter/index.html
+ create mode 100644 ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/layout-shifter/style.css
+ create mode 100644 ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/mostly-fliuid/index.html
+ create mode 100644 ResponsiveDesign-1/Devyendu Shekhar/responsive design pattern/mostly-fliuid/style.css
+ create mode 100644 ResponsiveDesign-1/Dipesh/index.html
+ create mode 100644 ResponsiveDesign-1/Dipesh/style2.css
+ create mode 100644 ResponsiveDesign-1/Ishu Anand/column drop/index.html
+ create mode 100644 ResponsiveDesign-1/Ishu Anand/column drop/style.css
+ create mode 100644 ResponsiveDesign-1/Ishu Anand/layout_shifter/index.html
+ create mode 100644 ResponsiveDesign-1/Ishu Anand/layout_shifter/style.css
+ create mode 100644 ResponsiveDesign-1/Ishu Anand/mostly-fluid/index.html
+ create mode 100644 ResponsiveDesign-1/Ishu Anand/mostly-fluid/style.css
+ create mode 100644 ResponsiveDesign-1/Kanishk/layoutshifter.html
+ create mode 100644 ResponsiveDesign-1/Nitin/coloumn_drop.css
+ create mode 100644 ResponsiveDesign-1/Nitin/coloumn_drop.html
+ create mode 100644 ResponsiveDesign-1/Paavini/.gitignore
+ create mode 100644 ResponsiveDesign-1/Paavini/ColumnDrop.html
+ create mode 100644 ResponsiveDesign-1/Paavini/MostlyFluid.html
+ create mode 100644 ResponsiveDesign-1/Paavini/layoutshifter.html
+ create mode 100644 ResponsiveDesign-1/Practice Material/Column-Drop/columndrop.html
+ create mode 100644 ResponsiveDesign-1/Practice Material/Column-Drop/style.css
+ create mode 100644 ResponsiveDesign-1/Practice Material/Flex-layout-lab/flexdesign.html
+ create mode 100644 ResponsiveDesign-1/Practice Material/Flex-layout-lab/style.css
+ create mode 100644 ResponsiveDesign-1/Practice Material/Layout-shifter/laayoutshifter.html
+ create mode 100644 ResponsiveDesign-1/Practice Material/Layout-shifter/style.css
+ create mode 100644 ResponsiveDesign-1/Practice Material/Mostly-Fluid/mostlyfluid.html
+ create mode 100644 ResponsiveDesign-1/Practice Material/Mostly-Fluid/style.css
+ create mode 100644 ResponsiveDesign-1/Practice Material/Solutions/columndrop.css
+ create mode 100644 ResponsiveDesign-1/Practice Material/Solutions/flexbox.css
+ create mode 100644 ResponsiveDesign-1/Practice Material/Solutions/layoutShifter.css
+ create mode 100644 ResponsiveDesign-1/PrashantVashisht/ColumnDrop.html
+ create mode 100644 ResponsiveDesign-1/PrashantVashisht/Fluid.html
+ create mode 100644 ResponsiveDesign-1/PrashantVashisht/LayoutShifter.html
+ create mode 100644 ResponsiveDesign-1/PrashantVashisht/columndrop.css
+ create mode 100644 ResponsiveDesign-1/PrashantVashisht/layoutshifter.css
+ create mode 100644 ResponsiveDesign-1/PrashantVashisht/mostlyfluid.css
+ create mode 100644 ResponsiveDesign-1/Puneet/columndrop.css
+ create mode 100644 ResponsiveDesign-1/Puneet/columndrop.html
+ create mode 100644 ResponsiveDesign-1/README.md
+ create mode 100644 ResponsiveDesign-1/Readme.txt
+ create mode 100644 ResponsiveDesign-1/Rishabh Khanna/Layout-Shifter-rishabhk07/layoutshifter.html
+ create mode 100644 ResponsiveDesign-1/Rishabh Khanna/Layout-Shifter-rishabhk07/main.css
+ create mode 100644 ResponsiveDesign-1/SHRAYANSH JAIN/column-drop.css
+ create mode 100644 ResponsiveDesign-1/SHRAYANSH JAIN/column-drop.html
+ create mode 100644 ResponsiveDesign-1/SHRAYANSH JAIN/fluid.css
+ create mode 100644 ResponsiveDesign-1/SHRAYANSH JAIN/layout-shifter.css
+ create mode 100644 ResponsiveDesign-1/SHRAYANSH JAIN/layout-shifter.html
+ create mode 100644 ResponsiveDesign-1/SHRAYANSH JAIN/mostly-fluid.html
+ create mode 100644 ResponsiveDesign-1/Sarthak Goel/patterns-columndrop.html
+ create mode 100644 ResponsiveDesign-1/Sarthak Goel/patterns-layoutshifter.html
+ create mode 100644 ResponsiveDesign-1/Sarthak Goel/patterns-mostlyfluid.html
+ create mode 100644 ResponsiveDesign-1/Sonali/column layout/column_layout.css
+ create mode 100644 ResponsiveDesign-1/Sonali/column layout/column_layout.html
+ create mode 100644 ResponsiveDesign-1/Sonali/fluid/mostly_fluid.css
+ create mode 100644 ResponsiveDesign-1/Sonali/fluid/mostly_fluid.html
+ create mode 100644 ResponsiveDesign-1/Sonali/layout shifter/layout.css
+ create mode 100644 ResponsiveDesign-1/Sonali/layout shifter/layout_shifter.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Aakash/Column drop.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Aakash/Layout Shifter.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Aakash/Layout shifter css.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Aakash/column drop css.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Anshuman/column drop style.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Anshuman/column drop.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Anshuman/most fluid style.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Anshuman/mostly fluid.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Dhruva/Responsive Design/codelab-pattern1.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Dhruva/Responsive Design/columndrop.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Dhruva/Responsive Design/index.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Dhruva/Responsive Design/layout-shifter.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Dhruva/Responsive Design/mostlyfluid.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Column Drop/Column_Drop.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Column Drop/cd.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Flex.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Layout Shifter/Layout_Shifter.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Layout Shifter/ls.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Mostly Fluid/Mostly_Fluid.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Nikita Rai/Mostly Fluid/mf.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Pushpender/column-drop.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Pushpender/layout-shifter.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Pushpender/mostly-fluid.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Riya/CodeLab1/codelab1.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Riya/CodeLab1/index.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Riya/LayoutShifter/index.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Riya/LayoutShifter/style.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Riya/columndrop/index.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Riya/columndrop/style.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/SakshamBhalla/ColumnDrop.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/SakshamBhalla/LayoutShifter.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/SakshamBhalla/mostlyfluid.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/SakshamBhalla/mostlyfluid.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Shruti/columnHW.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Shruti/columnHW.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Shruti/flexHW.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Shruti/flexHW.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Shruti/layoutshifter.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/Shruti/layoutshifter.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/aishanya/couloumnDrop/index.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/aishanya/mostly fluid/index.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/amritha anil/columndrop.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/amritha anil/flexlayout.css
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/amritha anil/flexlayout.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/amritha anil/layoutshifter.html
+ create mode 100644 ResponsiveDesign-1/WinterBatch2018/amritha anil/mostlyfluid.html
+ create mode 100644 ResponsiveDesign-1/Workshop/Anshul Wadhawan/Column Drop/index.html
+ create mode 100644 ResponsiveDesign-1/Workshop/Anshul Wadhawan/Column Drop/style.css
+ create mode 100644 ResponsiveDesign-1/Workshop/Anshul Wadhawan/Layout-Shifter/index.html
+ create mode 100644 ResponsiveDesign-1/Workshop/Anshul Wadhawan/Layout-Shifter/style.css
+ create mode 100644 ResponsiveDesign-1/Workshop/Anshul Wadhawan/Mostly Fluid/index.html
+ create mode 100644 ResponsiveDesign-1/Workshop/Anshul Wadhawan/Mostly Fluid/style.css
+ create mode 100644 ResponsiveDesign-1/Workshop/ParikanshAhluwalia/column.html
+ create mode 100644 ResponsiveDesign-1/Workshop/ParikanshAhluwalia/columnstyle.css
+ create mode 100644 ResponsiveDesign-1/Workshop/ParikanshAhluwalia/fluid.html
+ create mode 100644 ResponsiveDesign-1/Workshop/ParikanshAhluwalia/fluidstyle.css
+ create mode 100644 ResponsiveDesign-1/Workshop/ParikanshAhluwalia/index.html
+ create mode 100644 ResponsiveDesign-1/Workshop/ParikanshAhluwalia/layoutshifter.html
+ create mode 100644 ResponsiveDesign-1/Workshop/ParikanshAhluwalia/shifterstyle.css
+ create mode 100644 ResponsiveDesign-1/Workshop/ParikanshAhluwalia/style.css
+ create mode 100644 ResponsiveDesign-1/Workshop/Rishabh Khanna/Column-Drop-Rishabhk07/columndrop.html
+ create mode 100644 ResponsiveDesign-1/Workshop/Rishabh Khanna/Column-Drop-Rishabhk07/style.css
+ create mode 100644 ResponsiveDesign-1/Workshop/Rishabh Khanna/Mostly-Fluid-Rishabhk07/mostlyFluidMe.html
+ create mode 100644 ResponsiveDesign-1/Workshop/Rishabh Khanna/Mostly-Fluid-Rishabhk07/style.css
+ create mode 100644 ResponsiveDesign-1/Workshop/Sandeep Ranjan/Task 5.1- Mosty Fluid.html
+ create mode 100644 ResponsiveDesign-1/Workshop/Sandeep Ranjan/Task 5.2 - Column Drop .html
+ create mode 100644 ResponsiveDesign-1/Workshop/Sandeep Ranjan/Task 5.3- Layout Shifter.html
+ create mode 100644 ResponsiveDesign-1/Workspace/columndrop.css
+ create mode 100644 ResponsiveDesign-1/Workspace/columndrop.html
+ create mode 100644 ResponsiveDesign-1/Workspace/index.html
+ create mode 100644 ResponsiveDesign-1/Workspace/layout-shifter.css
+ create mode 100644 ResponsiveDesign-1/Workspace/layout-shifter.html
+ create mode 100644 ResponsiveDesign-1/Workspace/mostlyfluid.css
+ create mode 100644 ResponsiveDesign-1/Workspace/mostlyfluid.html
+ create mode 100644 ResponsiveDesign-1/Workspace/style.css
+ create mode 100644 ResponsiveDesign-1/Yogi/Layout_shifer.css
+ create mode 100644 ResponsiveDesign-1/Yogi/Layout_shifter.html
+ create mode 100644 ResponsiveDesign-1/atif abdus samad/Layout-shifter.css
+ create mode 100644 ResponsiveDesign-1/atif abdus samad/Layout-shifter.html
+ create mode 100644 ResponsiveDesign-1/atif abdus samad/column-drop.css
+ create mode 100644 ResponsiveDesign-1/atif abdus samad/column-drop.html
+ create mode 100644 ResponsiveDesign-1/atif abdus samad/fluid.css
+ create mode 100644 ResponsiveDesign-1/atif abdus samad/fluid.html
+ create mode 100644 ResponsiveDesign-1/devank/index.html
+ create mode 100644 ResponsiveDesign-1/devank/style2.css
+ create mode 100644 ResponsiveDesign-1/gopals/column.css
+ create mode 100644 ResponsiveDesign-1/gopals/column_drop.html
+ create mode 100644 ResponsiveDesign-1/gopals/fluid.css
+ create mode 100644 ResponsiveDesign-1/gopals/fluid.html
+ create mode 100644 ResponsiveDesign-1/gopals/layout.css
+ create mode 100644 ResponsiveDesign-1/gopals/layout_shifter.html
+ create mode 100644 ResponsiveDesign-1/mansikhemka/Column-Drop/columndrop.html
+ create mode 100644 ResponsiveDesign-1/mansikhemka/Column-Drop/style.css
+ create mode 100644 ResponsiveDesign-1/mansikhemka/Flex-layout-lab/flexdesign.html
+ create mode 100644 ResponsiveDesign-1/mansikhemka/Flex-layout-lab/style.css
+ create mode 100644 ResponsiveDesign-1/mansikhemka/Layout-shifter/layoutshifter.html
+ create mode 100644 ResponsiveDesign-1/mansikhemka/Layout-shifter/style.css
+ create mode 100644 ResponsiveDesign-1/mansikhemka/Mostly-Fluid/mostlyfluid.html
+ create mode 100644 ResponsiveDesign-1/mansikhemka/Mostly-Fluid/style.css
+ create mode 100644 ResponsiveDesign-1/mansikhemka/blankpage
+ create mode 100644 ResponsiveDesign-1/nitin tanwar/columndrop.css
+ create mode 100644 ResponsiveDesign-1/nitin tanwar/columndrop.html
+ create mode 100644 ResponsiveDesign-1/nitin tanwar/layoutshifter.css
+ create mode 100644 ResponsiveDesign-1/nitin tanwar/layoutshifter.html
+ create mode 100644 ResponsiveDesign-1/nitin tanwar/readme.md
+ create mode 100644 ResponsiveDesign-1/nitin tanwar/view1.html
+ create mode 100644 ResponsiveDesign-1/nitin tanwar/viewport.css
+ create mode 100644 ResponsiveDesign-1/pallavraj/fluid.html
+ create mode 100644 ResponsiveDesign-1/pradeep/mostly-fluid.css
+ create mode 100644 ResponsiveDesign-1/pradeep/mostly-fluid.html
+ create mode 100644 ResponsiveDesign-1/pratyush/design/column-drop/Column-Drop.png
+ create mode 100644 ResponsiveDesign-1/pratyush/design/column-drop/column-drop.css
+ create mode 100644 ResponsiveDesign-1/pratyush/design/column-drop/index.html
+ create mode 100644 ResponsiveDesign-1/pratyush/design/layout-shifting/index.html
+ create mode 100644 ResponsiveDesign-1/pratyush/design/layout-shifting/layout-shifter.png
+ create mode 100644 ResponsiveDesign-1/pratyush/design/layout-shifting/layout-shifting.css
+ create mode 100644 ResponsiveDesign-1/pratyush/design/mostlyfluid/index.html
+ create mode 100644 ResponsiveDesign-1/pratyush/design/mostlyfluid/mostly-fluid.png
+ create mode 100644 ResponsiveDesign-1/pratyush/design/mostlyfluid/mostlyfluid.css
+ create mode 100644 ResponsiveDesign-1/pritam/column layout/column_layout.css
+ create mode 100644 ResponsiveDesign-1/pritam/column layout/column_layout.html
+ create mode 100644 ResponsiveDesign-1/pritam/fluid/mostly_fluid.css
+ create mode 100644 ResponsiveDesign-1/pritam/fluid/mostly_fluid.html
+ create mode 100644 ResponsiveDesign-1/pritam/layout shifter/layout.css
+ create mode 100644 ResponsiveDesign-1/pritam/layout shifter/layout_shifter.html
+ create mode 100644 ResponsiveDesign-1/scaars10/layout_shifter.css
+ create mode 100644 ResponsiveDesign-1/scaars10/layout_shifter.html
+ create mode 100644 ResponsiveDesign-1/shivamyadav03/box.html
+ create mode 100644 ResponsiveDesign-1/shivamyadav03/class.css
+ create mode 100644 ResponsiveDesign-1/shivamyadav03/trail.css
+ create mode 100644 ResponsiveDesign-1/shivamyadav03/trail.html
+ create mode 100644 ResponsiveDesign-1/vatsala/LICENSE
+ create mode 100644 ResponsiveDesign-1/vatsala/README.md
+ create mode 100644 ResponsiveDesign-1/vatsala/index.css
+ create mode 100644 ResponsiveDesign-1/vatsala/res.html
+ create mode 100644 ResponsiveDesign-1/vatsala/vatsala.jpg
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git push origin master
+Counting objects: 310, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (300/300), done.
+Writing objects: 100% (310/310), 573.13 KiB | 3.45 MiB/s, done.
+Total 310 (delta 44), reused 0 (delta 0)
+remote: Resolving deltas: 100% (44/44), completed with 1 local object.
+To https://github.com/Nitin-Tanwar/responsivedesign.git
+   53597aa..82036e0  master -> master
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git pull upstream master
+From https://github.com/Nitin-Tanwar/responsivedesign
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> upstream/master
+Already up to date.
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git remote add upstream1 https://github.com/Nitin-Tanwar/ResponsiveDesign-1.git
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git remote -v
+origin  https://github.com/Nitin-Tanwar/responsivedesign.git (fetch)
+origin  https://github.com/Nitin-Tanwar/responsivedesign.git (push)
+upstream        https://github.com/Nitin-Tanwar/responsivedesign.git (fetch)
+upstream        https://github.com/Nitin-Tanwar/responsivedesign.git (push)
+upstream1       https://github.com/Nitin-Tanwar/ResponsiveDesign-1.git (fetch)
+upstream1       https://github.com/Nitin-Tanwar/ResponsiveDesign-1.git (push)
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ dir
+columndrop.css     layoutshifter.html  ResponsiveDesign-1
+columndrop.html    readme.md           view1.html
+layoutshifter.css  responsivedesign    viewport.css
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive (master)
+$ cd ResponsiveDesign-1/
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive/ResponsiveDesign-1 (master)
+$ dir
+AbhishekPrakhar     Devyendu\ Shekhar  Practice\ Material  scaars10
+ANSHUL              Dipesh             pradeep             shivamyadav03
+Arvind-Kalra        gopals             PrashantVashisht    SHRAYANSH\ JAIN
+Ashoo\ Jain         Ishu\ Anand        pratyush            Sonali
+atif\ abdus\ samad  Kanishk            pritam              vatsala
+Avani               mansikhemka        Puneet              WinterBatch2018
+Ayush               Nitin              README.md           Workshop
+BhavyaTakkar        nitin\ tanwar      Readme.txt          Workspace
+ChetanJain          Paavini            Rishabh\ Khanna     Yogi
+devank              pallavraj          Sarthak\ Goel
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive/ResponsiveDesign-1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        nitin tanwar/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive/ResponsiveDesign-1 (master)
+$ git add nitin\ tanwar/
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive/ResponsiveDesign-1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   nitin tanwar/columndrop.css
+        new file:   nitin tanwar/columndrop.html
+        new file:   nitin tanwar/layoutshifter.css
+        new file:   nitin tanwar/layoutshifter.html
+        new file:   nitin tanwar/readme.md
+        new file:   nitin tanwar/view1.html
+        new file:   nitin tanwar/viewport.css
+
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive/ResponsiveDesign-1 (master)
+$ git commit -m "Responsive"
+[master 0726201] Responsive
+ 7 files changed, 269 insertions(+)
+ create mode 100644 nitin tanwar/columndrop.css
+ create mode 100644 nitin tanwar/columndrop.html
+ create mode 100644 nitin tanwar/layoutshifter.css
+ create mode 100644 nitin tanwar/layoutshifter.html
+ create mode 100644 nitin tanwar/readme.md
+ create mode 100644 nitin tanwar/view1.html
+ create mode 100644 nitin tanwar/viewport.css
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive/ResponsiveDesign-1 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive/ResponsiveDesign-1 (master)
+$ git push upstream1 master
+fatal: 'upstream1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive/ResponsiveDesign-1 (master)
+$ git push origin master
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.56 KiB | 400.00 KiB/s, done.
+Total 9 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To https://github.com/Nitin-Tanwar/ResponsiveDesign-1.git
+   17e28e4..0726201  master -> master
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive/ResponsiveDesign-1 (master)
+$ git pull upstream1 master
+fatal: 'upstream1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive/ResponsiveDesign-1 (master)
+$ git pull upstream1 master
+fatal: 'upstream1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Nitin@LAPTOP-2VORRTHQ MINGW64 ~/Desktop/responsive/ResponsiveDesign-1 (master)
+$
